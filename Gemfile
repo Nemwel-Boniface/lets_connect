@@ -9,6 +9,19 @@ gem "rails", "~> 7.0.4"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+gem 'image_processing'
+gem 'mini_magick'
+gem 'active_storage_validations'
+gem 'bcrypt'
+gem 'faker'
+gem 'will_paginate'
+
+gem 'bootstrap-will_paginate'
+gem 'bootstrap-sass'
+gem 'sass-rails'
+gem 'webpacker'
+gem 'turbolinks'
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
@@ -57,6 +70,11 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
+  gem 'web-console'
+  gem 'listen'
+  gem 'spring'
+  gem 'spring-watcher-listen'
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
@@ -69,4 +87,10 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+
+  gem 'rails-controller-testing'
+  gem 'minitest'
+  gem 'minitest-reporters'
+  gem 'guard'
+  gem 'guard-minitest'
 end
